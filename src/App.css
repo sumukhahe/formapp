@@ -1,0 +1,130 @@
+
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body{
+  background: linear-gradient(to right,#f09548,#D9667B);
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  
+  
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+  
+  
+  margin-bottom: 50%;
+  margin-top: 50%;
+  
+  
+}
+.redbu{
+  background-color: #4CAF50;
+  color: white;
+}
+.bluebu{
+background-color: #2196F3;
+color: white;
+}
+.button-group {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+form {
+  background-color: white;
+  padding: 0px 60px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  padding: 5px;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 15px 0;
+}
+
+.back-button {
+  margin-top: 20px;
+  margin-left: 70px;
+ background-color: black;
+ color: white;
+}
+.back-button2 {
+  margin-top: 20px;
+ 
+ background-color: black;
+ color: white;
+}
+.back-button4 {
+  margin-top: 20px;
+ 
+ background-color: black;
+ color: white;
+}
+
+.back-button3 {
+  margin-top: 20px;
+  margin-left: 70px;
+ background-color: black;
+ color: white;
+}
+
+@media (max-width: 768px) {
+  .button-group {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  form {
+    padding: 0 30px;
+    width: 150%;
+  }
+
+  button {
+    width: 150px;
+    font-size: 16px;
+    
+  }
+  .back-button2 {
+    width: 70%;
+   
+   background-color: black;
+   color: white;
+  }
+
+  .back-button3 {
+    width: auto;
+   
+   background-color: black;
+   color: white;
+  }
+}
